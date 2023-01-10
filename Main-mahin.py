@@ -6,20 +6,13 @@ print("""
     ---------Program Info----------   
     Name: Face RECOGNITION AI         
     Language: Python                  
-    Published by : Notre Dame IT Club 
-    Patron: Abdul Basit Tonmoy        
-    Team Member: Mahin,Shawki,Arko    
+   
                 ----       
     Copyright of Mahin Bin Hasan,2023            
     https://www.facebook.com/root.mahin                       
     https://www.youtube.com/AlMahin     
     https://github.com/mahinbinhasan                   
- 
- 
-    -------Main Script Info------       
-    Author: Md. Al Mahin Bin Hasan          
-    Modules: all modules are public     
-          available for public use         
+     
                                    
  """)                                                                  
 #-----------------------------------------------------------------Code starts from here..
