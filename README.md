@@ -22,6 +22,7 @@ Python based face recognition project with GUI
 
 ## How to use?
 - Install [Python](https://www.python.org/downloads/) 3.9+ version on your device
+- Download the project zip file
 - Setup the **virtual evnvironment** using [requirements.txt](requirements.txt) file
 - Enjoy the application experience
 
