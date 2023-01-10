@@ -57,7 +57,7 @@ def newwin():
     Lab = Label(win,text='AI based Face Recognition NDITC',font=('','12'))
     Lab.pack()
     
-    bod = Label(win,text='This program is created by NDITC AI Team.\nPatron: Abdul Basit Tonmoy\n GUI,AI & Voice implementation: Md. Al Mahin Bin Hasan\n Post processing:Ahammed Shawki \nImage resources : Arko Chowdhury ')
+    bod = Label(win,text='This program is created by Md. Al Mahin Bin Hasan')
     bod.pack()
     
     t = Button(win, bg="#777a80", fg="#bbbbbd", width=22, text='Find me on Facebook!!', command=lambda: brs())
@@ -164,8 +164,7 @@ cnbt.grid(row = 0,column = 1)
 cn = Button(header,bg="#3C3F41",width = 12,text ='----------')
 cn.grid(row = 0,column = 2)
 
-lab = Label(root,text="NDITC'S AI POWERED FACE RECOGNITION APP",font=('Trebuchet MS Bold','28'),bg='#202229',fg='#56fc03').pack()
-#lab = Label(root,text="FACE RECOGNITION APP",font=('Trebuchet MS Bold','28'),bg='#202229',fg='#56fc03').pack()
+lab = Label(root,text="FACE RECOGNITION APP",font=('Trebuchet MS Bold','28'),bg='#202229',fg='#56fc03').pack()
 
 #<---------------------------------------------------------------->
 
