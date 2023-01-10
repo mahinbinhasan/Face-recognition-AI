@@ -51,7 +51,7 @@ Details can be found in [LICENSE](LICENSE)
 <br>
 
 ## Contact Info
-- [Telephone](tel:01580906164)
+- [Telephone](tel:01580-906164)
 - [Email](mailto:allmahin149@gmail.com)
 - [Website](http://mahin.ml/)
 - [Facebook](https://www.facebook.com/root.mahin)
