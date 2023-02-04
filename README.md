@@ -42,7 +42,7 @@ Python based face recognition project with GUI
 
 ## Snaps in Action
 
-![New Version](Other/snap1.png)
+![New Version](Other/snap1.PNG)
 ![Old version](Other/snap.png)
 
 
