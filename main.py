@@ -41,36 +41,17 @@ video_capture = cv2.VideoCapture(0)
 print("[+]Loading Faces")
 mahin_image = face_recognition.load_image_file("faces/mahin.jpg")
 mahin_face_encoding = face_recognition.face_encodings(mahin_image)[0]
-saikat1_image = face_recognition.load_image_file("faces/saikat1.jpg")
-saikat1_face_encoding = face_recognition.face_encodings(saikat1_image)[0]
-saikat2_image = face_recognition.load_image_file("faces/saikat2.jpg")
-saikat2_face_encoding = face_recognition.face_encodings(saikat2_image)[0]
-tonmoy_image = face_recognition.load_image_file("faces/tonmoy.jpg")
-tonmoy_face_encoding = face_recognition.face_encodings(tonmoy_image)[0]
-tonmoy2_image = face_recognition.load_image_file("faces/tonmoy2.jpg")
-tonmoy2_face_encoding = face_recognition.face_encodings(tonmoy2_image)[0]
-hemanto1_image = face_recognition.load_image_file("faces/hemanto1.jpg")
-hemanto1_face_encoding = face_recognition.face_encodings(hemanto1_image)[0]
-hemanto2_image = face_recognition.load_image_file("faces/hemanto2.jpg")
-hemanto2_face_encoding = face_recognition.face_encodings(hemanto2_image)[0]
+steve_image = face_recognition.load_image_file("faces/steve.jpg")
+steve_face_encoding = face_recognition.face_encodings(steve_image)[0]
+
 
 known_face_encodings = [
     mahin_face_encoding,
-    saikat1_face_encoding,
-    saikat2_face_encoding,
-    tonmoy_face_encoding,
-    tonmoy2_face_encoding,
-    hemanto1_face_encoding,
-    hemanto2_face_encoding,
+    steve_face_encoding,
 ]
 known_face_names = [
     "Mahin",
-    "Saikat Sir",
-    "Saikat Sir",
-    "Tonmoy",
-    "Tonmoy",
-    "Father Hemanto",
-    "Father Hemanto",
+    "Steve Jobs",
 ]
 #-----------------------------------------Face Section End---------------------------
 face_locations = []
