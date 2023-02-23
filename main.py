@@ -1,6 +1,4 @@
 #This Script is fully created by Mahin Bin Hasan
-#It's a part of NDITC's AI project. 
-#Overall project credits are given in our official Github repo.
 #
 #
 #
@@ -8,14 +6,8 @@ import os
 os.system("cls")
 print("""
 
-    _______    ____  _____      ___    ____
-   / ____/ |  / /\ \/ /   |    /   |  /  _/
-  / __/  | | / /  \  / /| |   / /| |  / /  
- / /___  | |/ /   / / ___ |_ / ___ |_/ /   
-/_____/  |___/   /_/_/  |_(_)_/  |_/___/   
-                                           
    
-[+]Welcome to NDITC's AI powered Face recognition programme.. 
+[+]Welcome 
                                  
  """) 
 print("[+]Collecting resources")
@@ -280,7 +272,7 @@ class Ui_MainWindow(object):
         Lab = Label(win,text='AI based Face Recognition NDITC',font=('','12'))
         Lab.pack()
         
-        bod = Label(win,text='This program is created by NDITC AI Team.\nProduct Manager: Abdul Basit Tonmoy\n Full Appliaction: Md. Al Mahin Bin Hasan\n Post processing:Ahammed Shawki \nImage resources : Arko Chowdhury ')
+        bod = Label(win,text='This program is created by \n Md. Al Mahin Bin Hasan\n Notre Dame College,Dhaka ')
         bod.pack()
         
         t = Button(win, bg="#777a80", fg="#bbbbbd", width=22, text='Find me on Facebook!!', command=lambda: self.brs())
