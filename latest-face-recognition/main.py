@@ -1,10 +1,16 @@
-#This Script is fully created by Mahin Bin Hasan
-#
-#
-#It's a part of NDITC's AI project. 
-#Overall project credits are given in our official Github repo.
-#
-#
+#                                                           FACE RECOGNITION APPLICATION FOR EVYA.AI
+#                                               ------------------------------------------------------------------
+#                                               |Script Author: Md. Al Mahin Bin Hasan                           |
+#                                               |Github       : https://github.com/mahinbinhasan                 |
+#                                               ------------------------------------------------------------------
+#                                               ------------------------------------------------------------------
+#                                               |On first start please connect to internet!!                     |
+#                                               |                                                                |
+#                                               |It's a part of NDITC's EVYA.AI project.                         |
+#                                               |Overall project credits are given in Readme.md file.            |
+#                                               ------------------------------------------------------------------
+#                                                     [!!-------------------------------------------------!!]
+#---------------------------------------------------------------------------Script start----------------------------------------------------------------------------
 
 import os
 os.system("cls")
